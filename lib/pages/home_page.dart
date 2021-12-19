@@ -225,6 +225,7 @@ void _settingModalBottomSheet(context, String? name, String? primaryPhoneNumber,
                   ),
                 ),
                 ListTile(
+                  onTap: () => _callNumber(officeNumber),
                   title: const Text(
                     "Телефон рабочий",
                     style: TextStyle(color: Colors.grey, fontSize: 12),
@@ -242,6 +243,7 @@ void _settingModalBottomSheet(context, String? name, String? primaryPhoneNumber,
                   ),
                 ),
                 ListTile(
+                  onTap: () => _callNumber(whatsAppNumber),
                   title: const Text(
                     "Телефон What's app",
                     style: TextStyle(color: Colors.grey, fontSize: 12),
